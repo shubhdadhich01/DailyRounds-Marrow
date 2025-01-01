@@ -1,0 +1,21 @@
+Command: ./script.sh --interval 10 --format JSON
+{
+  "CPU_Usage": "9.1",
+  "Memory_Usage": "31.00",
+  "Disk_Usage": [
+    {"Filesystem": "/dev/root", "Total": "6.8G", "Used": "1.7G", "Available": "5.1G", "Usage": "26%"},
+    {"Filesystem": "tmpfs", "Total": "479M", "Used": "0", "Available": "479M", "Usage": "0%"},
+    {"Filesystem": "tmpfs", "Total": "192M", "Used": "876K", "Available": "191M", "Usage": "1%"},
+    {"Filesystem": "tmpfs", "Total": "5.0M", "Used": "0", "Available": "5.0M", "Usage": "0%"},
+    {"Filesystem": "/dev/xvda16", "Total": "881M", "Used": "76M", "Available": "744M", "Usage": "10%"},
+    {"Filesystem": "/dev/xvda15", "Total": "105M", "Used": "6.1M", "Available": "99M", "Usage": "6%"},
+    {"Filesystem": "tmpfs", "Total": "96M", "Used": "12K", "Available": "96M", "Usage": "1%"},
+  ],
+  "Top_Processes": [
+    {"PID": "2049", "Command": "sshd", "CPU_Usage": "0.0"},
+    {"PID": "1", "Command": "systemd", "CPU_Usage": "0.0"},
+    {"PID": "183", "Command": "multipathd", "CPU_Usage": "0.0"},
+    {"PID": "930", "Command": "amazon-ssm-agen", "CPU_Usage": "0.0"},
+    {"PID": "589", "Command": "snapd", "CPU_Usage": "0.0"},
+  ]
+}
