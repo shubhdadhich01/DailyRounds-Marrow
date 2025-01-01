@@ -1,0 +1,19 @@
+CPU Usage: 9.1%     
+Memory Usage: 31.00%
+
+Disk Usage:
+/dev/root            6.8G       1.7G       5.1G       26%       
+tmpfs                479M       0          479M       0%        
+tmpfs                192M       876K       191M       1%        
+tmpfs                5.0M       0          5.0M       0%        
+/dev/xvda16          881M       76M        744M       10%       
+/dev/xvda15          105M       6.1M       99M        6%        
+tmpfs                96M        12K        96M        1%        
+
+Top 5 CPU-Consuming Processes:
+PID    Command            CPU Usage
+2049   sshd                 0.0
+1      systemd              0.0
+183    multipathd           0.0
+930    amazon-ssm-agen      0.0
+589    snapd                0.0
