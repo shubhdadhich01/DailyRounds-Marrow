@@ -1,4 +1,5 @@
 Command: ./script.sh --interval 10 --format text
+
 CPU Usage: 9.1%     
 Memory Usage: 31.00%
 
