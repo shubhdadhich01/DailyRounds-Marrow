@@ -18,4 +18,4 @@ chmod +x script.sh
 ```
 ./script.sh --interval 10 --format CSV
 ```
-If nothing is mention by default it will take interval as 10 and formt as text.
+If nothing is mentioned by default it will take an interval as 10 and format as text.
