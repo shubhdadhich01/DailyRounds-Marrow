@@ -5,6 +5,7 @@
 chmod +x script.sh
 ```
 2. Run the script by using the below command
+
 **For text format output**
 ```
 ./script.sh --interval 10 --format text
